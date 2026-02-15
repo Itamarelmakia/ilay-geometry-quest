@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { createPageUrl } from "../utils";
+import { createPageUrl } from "../../utils";
 import { Lock, CheckCircle, Star } from "lucide-react";
 import { motion } from "framer-motion";
 

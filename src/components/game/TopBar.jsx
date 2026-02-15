@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { createPageUrl } from "../utils";
+import { createPageUrl } from "../../utils";
 import { AVATARS } from "./gameData";
 import { Sparkles } from "lucide-react";
 
