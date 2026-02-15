@@ -47,8 +47,22 @@
  *
  * The mainPage value must match a key in the PAGES object exactly.
  */
+import Auth from './pages/Auth';
+import AvatarSelect from './pages/AvatarSelect';
+import Map from './pages/Map';
+import Level from './pages/Level';
+import Profile from './pages/Profile';
 
-export const pagesConfig = {
-	Pages: {}
+
+export const PAGES = {
+    "Auth": Auth,
+    "AvatarSelect": AvatarSelect,
+    "Map": Map,
+    "Level": Level,
+    "Profile": Profile,
 }
 
+export const pagesConfig = {
+    mainPage: "Auth",
+    Pages: PAGES,
+};
